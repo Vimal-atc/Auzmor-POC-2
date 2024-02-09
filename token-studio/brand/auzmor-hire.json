@@ -35,16 +35,60 @@
     "link": {
       "value": "{color.primary-500}",
       "type": "color"
+    },
+    "form-heading": {
+      "value": "Sign in",
+      "type": "text"
+    },
+    "button-primary": {
+      "value": "Sign in",
+      "type": "text"
+    },
+    "button-secondary": {
+      "value": "Sign In via SSO",
+      "type": "text"
+    },
+    "field-title": {
+      "value": "Work Email / Username",
+      "type": "text"
+    },
+    "field-caption": {
+      "value": "Password",
+      "type": "text"
+    },
+    "field-text": {
+      "value": "Enter your email address / username",
+      "type": "text"
+    },
+    "link-middle": {
+      "value": "Forgot Password?",
+      "type": "text"
+    },
+    "footer-text": {
+      "value": "New To Auzmor Hire?",
+      "type": "text"
+    },
+    "footer-text-link": {
+      "value": "Signup",
+      "type": "text"
     }
   },
-  "spacing": {
-    "button-padding": {
-      "value": "{spacing.m} {spacing.xl}",
+  "padding": {
+    "button": {
+      "value": "{spacing.md}",
+      "type": "spacing"
+    },
+    "container-none": {
+      "value": "{spacing.none} {spacing.none}",
+      "type": "spacing"
+    },
+    "container": {
+      "value": "{spacing.2xl} {spacing.2xl}",
       "type": "spacing"
     }
   },
-  "border": {
-    "primary": {
+  "border-color": {
+    "button": {
       "value": {
         "color": "{neutral.200}",
         "width": "{borderwidth.1}"
@@ -64,13 +108,20 @@
         "width": "{borderwidth.1}"
       },
       "type": "border"
+    },
+    "divider-text": {
+      "value": {
+        "color": "{neutral.300}",
+        "width": "{borderwidth.none}"
+      },
+      "type": "border"
     }
   },
   "shadow": {
-    "50": {
+    "button-shadow": {
       "value": [
         {
-          "color": "#A6ABBB",
+          "color": "A6ABBB",
           "type": "dropShadow",
           "x": "0",
           "y": "2",
@@ -141,7 +192,7 @@
       },
       "type": "typography"
     },
-    "field-caption": {
+    "decription": {
       "value": {
         "fontFamily": "{SF Pro Display}",
         "fontWeight": "{regular}",
@@ -156,14 +207,6 @@
         "fontSize": "{text-sm}"
       },
       "type": "typography"
-    }
-  },
-  "border-radius": {
-    "button": {
-      "radius": {
-        "value": "{radius.none}",
-        "type": "borderRadius"
-      }
     }
   },
   "container": {
@@ -182,6 +225,72 @@
     "fields": {
       "value": "{spacing.xs}",
       "type": "spacing"
+    },
+    "divider": {
+      "value": "{spacing.4xl}",
+      "type": "spacing"
+    },
+    "content": {
+      "value": "{spacing.xxs}",
+      "type": "spacing"
+    },
+    "fields-container": {
+      "value": "{spacing.4xl}",
+      "type": "spacing"
+    }
+  },
+  "divier": {
+    "divider-visibility": {
+      "value": "{boolean.show}",
+      "type": "boolean"
+    }
+  },
+  "header": {
+    "logo-visibility": {
+      "value": "{boolean.hide}",
+      "type": "boolean"
+    }
+  },
+  "border-radius": {
+    "button": {
+      "value": "{radius.sm}",
+      "type": "borderRadius"
+    },
+    "input-field": {
+      "value": "{radius.sm}",
+      "type": "borderRadius"
+    }
+  },
+  "border-width": {
+    "button-border": {
+      "value": "{borderwidth.none}",
+      "type": "borderWidth"
+    },
+    "divider-text-container": {
+      "value": "{borderwidth.none}",
+      "type": "borderWidth"
+    }
+  },
+  "field": {
+    "title-visibility": {
+      "value": "true",
+      "type": "boolean"
+    },
+    "caption-visibility": {
+      "value": "true",
+      "type": "boolean"
+    }
+  },
+  "link": {
+    "link-visibility": {
+      "value": "{boolean.hide}",
+      "type": "boolean"
+    }
+  },
+  "footer": {
+    "footer-visibility": {
+      "value": "true",
+      "type": "boolean"
     }
   }
 }
