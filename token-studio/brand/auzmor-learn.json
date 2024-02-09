@@ -288,7 +288,7 @@
       "type": "boolean"
     },
     "caption-visibility": {
-      "value": "{boolean.show}",
+      "value": "{boolean.hide}",
       "type": "boolean"
     }
   },
