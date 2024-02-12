@@ -250,7 +250,7 @@
       "type": "spacing"
     },
     "fields-container": {
-      "value": "{spacing.4xl}",
+      "value": "{space-between.divider}",
       "type": "spacing"
     }
   },
